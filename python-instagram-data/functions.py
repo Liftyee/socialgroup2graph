@@ -28,7 +28,7 @@ def getCommentors(user):
     return commentor_list
 
 def writeCSV(objectofinterest):
-    with open("newer.csv", "a") as f:
+    with open("output/graph.csv", "a") as f:
         try:
             for i in getCommentors(objectofinterest):
                 f.write(objectofinterest + "," + i + "\n")
