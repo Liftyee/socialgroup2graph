@@ -1,4 +1,3 @@
-from asyncore import write
 import instagram_private_api
 import json
 import codecs
@@ -37,7 +36,7 @@ def writeCSV(objectofinterest, filename):
         except:
             pass
 
-def final();
+def final():
     uname = input("Username: ")
     pword = input("Password: ")
     filename = input("Filename: ")
