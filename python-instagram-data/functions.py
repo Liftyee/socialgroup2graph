@@ -34,3 +34,9 @@ def writeCSV(objectofinterest):
                 f.write(objectofinterest + "," + i + "\n")
         except:
             pass
+    with open("output/names.txt", "a") as f:
+        try:
+            for i in getCommentors(objectofinterest):
+                f.write(i + "\n")
+        except:
+            pass
