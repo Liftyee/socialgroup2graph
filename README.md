@@ -1,1 +1,3 @@
-# socialgroup2graph
+# socialgroup2graph 
+
+## EasyA x Polygon Hackathon 2022
