@@ -1,4 +1,3 @@
 # socialgroup2graph 
 
-## EasyA x Polygon Hackathon 2022
-test
+Social group mapping project for the EasyA x Polygon Hackathon 2022
